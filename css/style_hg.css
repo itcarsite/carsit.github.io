@@ -14,17 +14,17 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-bottom: #f0f0f0;
 }  
-li {
+.audilist {
     float: left;
 }  
-li a {
+.audiactive {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover {
+.audiactive:hover {
     background-color: #111;
 }
 .logoimgHG
@@ -218,7 +218,7 @@ ul{
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
 }
-.footerlist{
+.footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
 	color: #ffffff;
@@ -228,7 +228,7 @@ ul{
 	display: block;
 	transition: all 0.3s ease;
 }
-.footerlist:hover{
+.footer-col ul li a:hover{
 	color: #ffffff;
 	padding-left: 8px;
 }
